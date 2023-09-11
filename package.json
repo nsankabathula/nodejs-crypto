@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "enc-test": "node learnings/rsa-encrypt.js",
+    "dec-test": "node learnings/rsa-decrypt.js",
+    "rsa-test": "node learnings/rsa-crypto.js",
+    "aes-test": "node learnings/aes-crypto.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsankabathula/nodejs-learning.git"
+  },
+  "author": "Naveen Sankabathula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsankabathula/nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/nsankabathula/nodejs-learning#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
